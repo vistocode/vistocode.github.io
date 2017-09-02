@@ -90,6 +90,15 @@ body, html {
   border-radius: 50%;
 }
 
+#socialid a {
+  text-decoration: none;
+  color: rgba(33,33,33 ,1);
+}
+
+/*#socialid a:hover, a:visited {
+  text-decoration: none;
+}*/
+
 .fa-facebook {
   padding: 10px 20px;
 
