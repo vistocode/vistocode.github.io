@@ -11,8 +11,9 @@ body, html {
 
 #introduction h1:nth-child(1) {
   color: rgba(33,33,33 ,1);
-  font-size: 10vw;
+  font-size: 7em;
   margin-top: 5%;
+  line-height: .9em;
 }
 
 #introduction h1:nth-child(2) {
@@ -35,9 +36,8 @@ body, html {
 
 #introduction {
   background: rgba(33,150,243 ,1);
-  min-height: 100%;
-  height: 100vh;
   width: 100%;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,23 +59,43 @@ body, html {
 
 #aboutme {
   background-color: #212121;
+  color: rgba(255,255,255,.7);
 }
 
 #aboutme img {
   display:block;
   margin: 0 auto;
-  width: 40%;
-  height: 25%;
+  width: 12em;
+  height: 33%;
   border-radius: 50%;
   border: 5px solid rgba(66,66,66 ,1);
-  margin-top: 50px;
+  margin-top: 10%;
+  margin-bottom: 3%;
   animation-name: blink-blink;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  border-bottom-left-radius: 10%;
-  border-top-right-radius: 10%;
 
 }
+#socialid {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.social {
+  padding: 10px;
+  margin: 5px;
+  border: 5px solid rgba(255,255,255 ,.7);
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  padding: 10px 20px;
+
+}
+
+
+
+
 
 @keyframes blink-blink {
   0%,100% {
