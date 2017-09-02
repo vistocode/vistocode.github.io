@@ -10,28 +10,32 @@ body, html {
 }
 
 #introduction h1:nth-child(1) {
-  color: rgba(255,255,255,1);
-  font-size: 100px;
-  margin-top: 100px;
+  color: rgba(33,33,33 ,1);
+  font-size: 6em;
+  margin-top: 10%;
 }
 
 #introduction h1:nth-child(2) {
   color: rgba(255,255,255,.7);
-  font-size: 60px;
+  font-size: 3em;
+  letter-spacing: 5px;
 }
 
 #introduction h1:nth-child(3) {
   color: rgba(255,255,255,.5);
-  font-size: 60px;
+  font-size: 3em;
+  letter-spacing: .1em;
 }
 
 #introduction h1:nth-child(4) {
   color: rgba(255,255,255,.3);
-  font-size: 60px;
+  font-size: 3em;
+  letter-spacing: .1em;
 }
 
 #introduction {
-  background: #F9A825;
+  background: rgba(33,150,243 ,1);
+  min-height: 100%;
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -41,6 +45,16 @@ body, html {
 
 #introduction h1 {
   font-size: 20px;
+}
+
+#hireme {
+  text-align: center;
+}
+
+#hireme button {
+  padding: 20px 40px;
+  margin-top: 5%;
+  border-radius: 10px;
 }
 
 #aboutme {
@@ -53,16 +67,19 @@ body, html {
   width: 50%;
   height: 50%;
   border-radius: 50%;
-  border: 5px solid rgba(100,181,246 ,1);
+  border: 5px solid rgba(66,66,66 ,1);
   margin-top: 50px;
   animation-name: blink-blink;
-  animation-duration: 1s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
+  border-bottom-left-radius: 10%;
+  border-top-right-radius: 10%;
+
 }
 
 @keyframes blink-blink {
   0%,100% {
-    border-color: : rgba(33,150,243 ,.5)
+    border-color: : rgba(33,150,243 ,.5);
   }
   50% {
     border-color: rgba(33,150,243 ,1)
