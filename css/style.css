@@ -11,25 +11,25 @@ body, html {
 
 #introduction h1:nth-child(1) {
   color: rgba(33,33,33 ,1);
-  font-size: 6em;
-  margin-top: 10%;
+  font-size: 10vw;
+  margin-top: 5%;
 }
 
 #introduction h1:nth-child(2) {
   color: rgba(255,255,255,.7);
-  font-size: 3em;
+  font-size: 4vw;
   letter-spacing: 5px;
 }
 
 #introduction h1:nth-child(3) {
   color: rgba(255,255,255,.5);
-  font-size: 3em;
+  font-size: 4vw;
   letter-spacing: .1em;
 }
 
 #introduction h1:nth-child(4) {
   color: rgba(255,255,255,.3);
-  font-size: 3em;
+  font-size: 4vw;
   letter-spacing: .1em;
 }
 
@@ -64,8 +64,8 @@ body, html {
 #aboutme img {
   display:block;
   margin: 0 auto;
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 25%;
   border-radius: 50%;
   border: 5px solid rgba(66,66,66 ,1);
   margin-top: 50px;
