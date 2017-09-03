@@ -73,7 +73,7 @@ body, html {
   display:block;
   margin: 0 auto;
   width: 12em;
-  height: 25%;
+  height: 28%;
   border-radius: 50%;
   border: 5px solid rgba(66,66,66 ,1);
   margin-top: 10%;
@@ -83,6 +83,11 @@ body, html {
   animation-iteration-count: infinite;
 
 }
+
+#aboutme p {
+  padding: 15px;
+}
+
 #socialid {
   text-align: center;
   margin-top: 10%;
