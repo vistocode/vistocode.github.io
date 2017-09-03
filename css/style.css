@@ -58,6 +58,11 @@ body, html {
   border-radius: 10px;
 }
 
+#hireme button a {
+  text-decoration: none;
+  color: #fff;
+}
+
 #aboutme {
   background-color: #212121;
   color: rgba(255,255,255,.7);
