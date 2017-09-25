@@ -1,46 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <title>Patrick Visto | The Offline Kid</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div id="introduction" class="col-xs-8 col-md-8 col-lg-8">
-          <h1>Patrick Visto</h1>
-          <h1>Front End Web Developer.</h1>
-          <h1>Cat and Dog Lover.</h1>
-          <h1>Musician.</h1>
-          <div id="socialid">
-            <a href="https://codepen.io/vistocode" target="_blank"><span class="fa fa-codepen fa-3x social"></span></a>
-            <a href="https://vistocode.github.io" target="_blank"><span class="fa fa-github fa-3x social"></span></a>
-            <a href="https://facebook.com/vistocode" target="_blank"><span class="fa fa-facebook fa-3x social"></span></a>
-            <a href="https://twitter.com/vistocode" target="_blank"><span class="fa fa-twitter fa-3x social"></span></a>
+    
+    <div class="main-container">
+      
+      <div class="container-fluid">
+        
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+          <div class="container">
+          <a class="navbar-brand" href="#">Patrick Visto</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
           </div>
-
-        </div>
-        <div id="aboutme" class="col-xs-4 col-md-4 col-lg-4">
-          <img src="images/pj2.jpg" alt="profile picture">
-          <h3 class="text-center">About Me</h3>
-          <p class="text-justify">I have been coding for about a year now but my passion for coding and creating awesome things has been burning for a very long time now. I mainly use HTML, CSS and Javascript for designing my websites as well as web applications that can help other people. You can view my works on Codepen and GitHub!</p>
-          <div id="hireme">
-            <button  type="button" name="button" class="btn btn-success"><a href="mailto:vistocode@gmail.com?Subject=We%20Want%20You!" target="_top">Hire Me!</a></button>
           </div>
+        </nav>
+        
 
+          <div class="main-header">
+            <img class="avatar" src="https://image.ibb.co/h25gb5/256x256.png" alt="">
+            <h1 class="text-center header-text">Full Stack Web Developer</h1>
+            <p class="text-center header-paragraph"> Simplicity is sophistication. I aim to create awesome looking websites that are simple but does not compromise modern day design and functionality.</p>
+          </div>
+        
+        <div id="portfolio">
+          <div class="portfolio">
+              <div class="container">
+                <h1 class="section-title text-center">Portfolio</h1>
+                <div class="row card-container">
+                  <div class="col-lg-4 col-md-12 card-box">
+                    <div class="card text-center" style="width: 20rem;">
+                      <img class="card-img-top" src="https://static.pexels.com/photos/447329/pexels-photo-447329.jpeg" alt="Card image cap">
+                      <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-12 card-box">
+                      <div class="card text-center" style="width: 20rem;">
+                      <img class="card-img-top" src="https://static.pexels.com/photos/541216/pexels-photo-541216.jpeg" alt="Card image cap">
+                      <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-12 card-box">
+                      <div class="card text-center" style="width: 20rem;">
+                      <img class="card-img-top" src="https://static.pexels.com/photos/580409/pexels-photo-580409.jpeg" alt="Card image cap">
+                      <div class="card-block">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
         </div>
+        
+        <div id="#contact" class="contact-form">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="contact--form">
+                <h1>Contact Me</h1>
+                <form>
+                  <div class="form-group">
+                    <label for="name"></label>
+                    <input class="form-control" id="name" type="text" name="name" placeholder="Enter your Name here"/>
+                    <label for="email"></label>
+                    <input class="form-control" id="email" type="email" name="email" aria-describedby="emailHelp" placeholder="Enter Email here"/>
+                    <small class="form-text text-muted" id="emailHelp">*I will never share your email with anyone else.</small>
+                    <label for="message"></label>
+                    <textarea id="message" class="form-control" rows="10" placeholder="Your message goes here"></textarea>
+                    <input id="submit" type="submit" class="btn btn-success" name=""/>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div id="social-sites" class="col-lg-6">
+              <div class="social-sites">
+                <h2 class="txt-">Your website can look like this too!</h2>
+                <p class="">Reach me on:</p>
+                <div class="social--sites">
+                  <a href="#"><img class="social-images img-fluid" src="https://image.ibb.co/bt6FpQ/005_github.png"></img></a>
+                  <a href="#"><img class="social-images img-fluid" src="https://image.ibb.co/n3PqOk/001_3d_outlined_shape.png"></img></a>
+                  <a href="#"><img class="social-images img-fluid" src="https://image.ibb.co/d5p1UQ/004_facebook.png"></img></a>
+                  <a href="#"><img class="social-images img-fluid" src="https://image.ibb.co/bG1FpQ/003_twitter.png"></img></a>
+                  <a href="#"><img class="social-images img-fluid" src="https://image.ibb.co/bJL89Q/002_linkedin.png"></img></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="site-footer">
+          <h3 class="text-center footer-text">Made with lots of <span><i class="fa fa-coffee" aria-hidden="true"></i></span> by <a href="#">Patrick Visto</a></h3>
+        </div>
+        
       </div>
-    </div>
+    </div> <!-- end of the main container -->
+    
+    
+    
 
-
-
-
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>
 </html>
