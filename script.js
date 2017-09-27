@@ -2,7 +2,7 @@ window.sr = ScrollReveal();
   sr.reveal('.card', {
     duration   : 2000,
     scale      : 1,
-    distance   : '150px',
+    distance   : '85px',
     origin     : 'bottom',
     reset      : true,
     easing     : 'ease-out',
