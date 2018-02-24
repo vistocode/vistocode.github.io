@@ -4,7 +4,7 @@ window.sr = ScrollReveal();
     scale      : 1,
     distance   : '85px',
     origin     : 'bottom',
-    reset      : true,
+    reset      : false,
     easing     : 'ease-out',
     viewFactor : 0.2,
   });
@@ -18,7 +18,7 @@ window.sr = ScrollReveal();
     easing     : 'ease-out',
     viewFactor : 1,
   });
-  
+
   sr.reveal('.btn-primary', {
     duration: 500,
     delay: 500,
@@ -28,7 +28,7 @@ window.sr = ScrollReveal();
     easing: 'ease-out',
     viewFactor: 1,
   });
-  
+
   sr.reveal('.contact--form', {
     duration: 500,
     delay: 500,
@@ -38,7 +38,7 @@ window.sr = ScrollReveal();
     easing: 'ease-out',
     viewFactor: 0.2,
   });
-  
+
   sr.reveal('.social-sites', {
     duration: 500,
     delay: 500,
