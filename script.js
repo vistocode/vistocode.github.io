@@ -14,7 +14,7 @@ window.sr = ScrollReveal();
     scale      : 1,
     distance   : '50px',
     origin     : 'bottom',
-    reset      : true,
+    reset      : false,
     easing     : 'ease-out',
     viewFactor : 1,
   });
@@ -24,7 +24,7 @@ window.sr = ScrollReveal();
     delay: 500,
     distance: '50px',
     origin: 'bottom',
-    reset: true,
+    reset: false,
     easing: 'ease-out',
     viewFactor: 1,
   });
@@ -34,7 +34,7 @@ window.sr = ScrollReveal();
     delay: 500,
     distance: '300px',
     origin: 'left',
-    reset: true,
+    reset: false,
     easing: 'ease-out',
     viewFactor: 0.2,
   });
@@ -44,7 +44,7 @@ window.sr = ScrollReveal();
     delay: 500,
     distance: '300px',
     origin: 'right',
-    reset: true,
+    reset: false,
     easing: 'ease-out',
     viewFactor: 0.2,
   });
