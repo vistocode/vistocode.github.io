@@ -35,7 +35,7 @@ body, html {
 }
 
 #introduction {
-  background: rgba(33,150,243 ,1);
+  background: rgba(0,0,0,1);
   min-height: 100%;
   width: 100%;
   height: 100vh;
